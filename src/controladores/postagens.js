@@ -70,4 +70,4 @@ async function listarPostagens(req,res) {
     }
 };
 
-module.exports={listarPostagens,cadastrarPostagens};
+module.exports={listarPostagens,cadastrarPostagens}; 
