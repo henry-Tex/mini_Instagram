@@ -71,12 +71,3 @@ async function listarPostagens(req,res) {
 };
 
 module.exports={listarPostagens,cadastrarPostagens};
-
-        // const postagensCurtidas = await knex.from('postagens as p').select('p.id','p.texto','pcu.usuario_id')
-        // .join('postagem_curtidas as pcu','pcu.postagem_id','=','p.id').first();
-        // if(postagensCurtidas.usuario_id===usuarioID) console.log('oi')
-        // const postagensFotos = await knex.from('postagens as p').select('p.id','p.texto','imagem')
-        // .join('postagem_fotos as pf','pf.postagem_id','=','p.id');
-        //.join('postagem_comentarios as pco','pco.postagem_id','=','p.id');
-        // const postagens = await knex.from('postagens as p').select('*')
-        // .join('postagem_curtidas as pc','pc.postagem_id','=',"p.id");
